@@ -85,6 +85,17 @@
       <h5>Perth Australia</h5>
     </div>
 	
+	 <div class="col-sm-4">
+	  <h3>CleverArchitect</h3>
+	  <h4 id="p6"></h4>
+		<script>
+			var date = new Date();
+			 var localTime = date.toLocaleString('en-US', { timeZone: 'America/Chicago' }); // Convert it to Victoria's local time
+			document.getElementById("p6").innerHTML = localTime;
+		</script>
+      <h5>USA America</h5>
+    </div>
+	
 	
   </div>
 </div>
@@ -273,8 +284,15 @@
 </div>
 
 
+<script>
 
+window.location.reload();
+
+<meta http-equiv="refresh" content="60"> 
+
+</script>
 
 
 </body>
 </html>
+
